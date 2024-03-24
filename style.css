@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("passenger.jpg") center/cover no-repeat;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 5px solid rgb(48, 12, 15);
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px 0;
+    margin: auto;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 6rem;
+    color: white;
+}
+
+#count-el {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1rem;
+    margin: 10px 20px;
+    font-weight: bold;
+    color: rgb(221, 219, 219);
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    color: aliceblue;
+    padding: 10px 0;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+#increment-btn {
+    background: darkblue;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#clear-btn {
+    background: darkred;
+    margin-top: 10px;
+}
